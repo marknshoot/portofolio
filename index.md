@@ -19,7 +19,7 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
 <section id="about">
   <div class="about">
     <div class="about-image">
-      <img src="/assets/images/DSC2.png" alt="Marcell Hermawan Kristianto">
+      <img src="{{ site.baseurl }}/assets/images/DSC2.png" alt="Marcell Hermawan Kristianto">
     </div>
     <div class="about-content">
       <span class="section-label">About Me</span>
