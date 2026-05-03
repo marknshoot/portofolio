@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(graphify *)",
+      "Bash(python -m graphify --version)",
+      "Bash(pip show *)",
+      "Bash(~/AppData/Roaming/npm/graphify.exe --version)",
+      "Bash(~/AppData/Roaming/npm/graphify.exe --help)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl *)",
+      "Bash(rm -rf ~/.claude/plugins/marketplaces/superpowers-marketplace)",
+      "Bash(git clone *)",
+      "Read(//c/Users/marce/.local/bin/**)",
+      "Bash(~/.local/bin/graphify.exe claude *)",
+      "Bash(npm list *)",
+      "Bash(npm config *)"
+    ]
+  }
+}
