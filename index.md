@@ -87,7 +87,7 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
   <span class="section-label">Selected Work</span>
   <h2 class="section-title">Data Science Projects</h2>
   <div class="projects-grid">
-    <article class="project-card">
+    <a href="https://github.com/marknshoot/customer-churn-prediction" class="project-card" target="_blank" rel="noopener">
       <div class="project-image ml"></div>
       <div class="project-content">
         <span class="project-category">Machine Learning</span>
@@ -100,8 +100,8 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
           <span class="tag">MLflow</span>
         </div>
       </div>
-    </article>
-    <article class="project-card">
+    </a>
+    <a href="https://github.com/marknshoot/indonesian-text-classifier" class="project-card" target="_blank" rel="noopener">
       <div class="project-image nlp"></div>
       <div class="project-content">
         <span class="project-category">Natural Language Processing</span>
@@ -114,8 +114,8 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
           <span class="tag">Docker</span>
         </div>
       </div>
-    </article>
-    <article class="project-card">
+    </a>
+    <a href="https://github.com/marknshoot/jakarta-air-quality-dashboard" class="project-card" target="_blank" rel="noopener">
       <div class="project-image viz"></div>
       <div class="project-content">
         <span class="project-category">Data Visualization</span>
@@ -128,8 +128,8 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
           <span class="tag">Plotly</span>
         </div>
       </div>
-    </article>
-    <article class="project-card">
+    </a>
+    <a href="https://github.com/marknshoot/plant-disease-detection" class="project-card" target="_blank" rel="noopener">
       <div class="project-image cv"></div>
       <div class="project-content">
         <span class="project-category">Deep Learning</span>
@@ -142,7 +142,7 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
           <span class="tag">OpenCV</span>
         </div>
       </div>
-    </article>
+    </a>
   </div>
 </section>
 
