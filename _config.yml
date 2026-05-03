@@ -1,24 +1,12 @@
 title: Marcell Hermawan Kristianto
 description: Data Science student and aspiring AI Engineer based in Jakarta.
-url: "https://marcellhk.github.io"
+url: "https://marknshoot.github.io"
 baseurl: "/portofolio"
 timezone: Asia/Jakarta
-permalink: /blog/:year/:month/:day/:title/
-
-collections:
-  posts:
-    output: true
-    permalink: /blog/:path/
-  cases:
-    output: true
-    permalink: /cases/:path/
-
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: highlight
-
-# GitHub Pages build
 safe: false
 lsi: false

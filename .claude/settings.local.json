@@ -15,7 +15,8 @@
       "Read(//c/Users/marce/.local/bin/**)",
       "Bash(~/.local/bin/graphify.exe claude *)",
       "Bash(npm list *)",
-      "Bash(npm config *)"
+      "Bash(npm config *)",
+      "WebFetch(domain:marknshoot.github.io)"
     ]
   }
 }

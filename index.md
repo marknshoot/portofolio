@@ -166,44 +166,6 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
   </div>
 </section>
 
-<!-- FROM THE BLOG -->
-<section id="blog">
-  <span class="section-label">From the Blog</span>
-  <h2 class="section-title">Latest Articles</h2>
-  <div class="preview-grid">
-    {% for post in site.posts limit:2 %}
-    <article class="post-card">
-      <div class="post-card-meta">{{ post.date | date: "%B %d, %Y" }}</div>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt }}</p>
-      <a href="{{ post.url }}" class="read-more">Read more &rarr;</a>
-    </article>
-    {% endfor %}
-  </div>
-  <div class="section-footer">
-    <a href="/blog/" class="btn btn-secondary">View All Posts</a>
-  </div>
-</section>
-
-<!-- CASE STUDIES -->
-<section id="cases">
-  <span class="section-label">Case Studies</span>
-  <h2 class="section-title">Deep Dives</h2>
-  <div class="preview-grid">
-    {% for case in site.cases limit:2 %}
-    <article class="post-card">
-      <div class="post-card-meta">{{ case.date | date: "%B %d, %Y" }} &bull; {{ case.category }}</div>
-      <h3><a href="{{ case.url }}">{{ case.title }}</a></h3>
-      <p>{{ case.summary }}</p>
-      <a href="{{ case.url }}" class="read-more">Read case study &rarr;</a>
-    </article>
-    {% endfor %}
-  </div>
-  <div class="section-footer">
-    <a href="/cases/" class="btn btn-secondary">View All Case Studies</a>
-  </div>
-</section>
-
 <!-- CONTACT -->
 <section class="contact-section" id="contact">
   <div class="contact-inner">
@@ -212,9 +174,9 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
     <p class="contact-text">Interested in collaborating on data science projects, AI research, or just want to discuss the future of AI? I'd love to hear from you.</p>
     <a href="mailto:marcell.hermawan@email.com" class="contact-email">marcell.hermawan@email.com</a>
     <div class="social-links">
-      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://kaggle.com/yourusername" target="_blank" rel="noopener">Kaggle</a>
+      <a href="https://github.com/marknshoot" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/marknshoot" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://kaggle.com/marknshoot" target="_blank" rel="noopener">Kaggle</a>
     </div>
   </div>
 </section>
