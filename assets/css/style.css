@@ -8,8 +8,8 @@
   --bg-dark: #0d0d12;
   --text-primary: #0d0d12;
   --text-secondary: #5a5a6e;
-  --accent: #00d4ff;
-  --accent-hover: #00b8e6;
+  --accent: #a78bfa;
+  --accent-hover: #c4b5fd;
   --border: #e2e6eb;
   --nav-height: 72px;
   --nav-height-scrolled: 56px;
@@ -21,8 +21,8 @@
   --bg-dark: #08080c;
   --text-primary: #f0f0f5;
   --text-secondary: #8a8a9e;
-  --accent: #00d4ff;
-  --accent-hover: #00ffff;
+  --accent: #a78bfa;
+  --accent-hover: #ddd6fe;
   --border: #1e1e2e;
 }
 
@@ -252,7 +252,7 @@ nav.scrolled {
 }
 
 [data-theme="dark"] .hero-name {
-  text-shadow: 0 0 40px rgba(0, 212, 255, 0.25);
+  text-shadow: 0 0 40px rgba(167, 139, 250, 0.3);
 }
 
 .hero-tagline {
@@ -391,7 +391,7 @@ section {
 
 .about-image:hover::before {
   opacity: 0.8;
-  box-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 0 30px rgba(167, 139, 250, 0.3);
 }
 
 .about-image:hover {
@@ -566,10 +566,10 @@ section {
 }
 
 /* Domain-specific gradient backgrounds */
-.project-image.ml { background: linear-gradient(135deg, #0d0d12 0%, #0066ff 50%, #00d4ff 100%); }
-.project-image.nlp { background: linear-gradient(135deg, #0d0d12 0%, #7c3aed 50%, #a855f7 100%); }
-.project-image.viz { background: linear-gradient(135deg, #0d0d12 0%, #059669 50%, #10b981 100%); }
-.project-image.cv  { background: linear-gradient(135deg, #0d0d12 0%, #dc2626 50%, #f97316 100%); }
+.project-image.ml { background: linear-gradient(135deg, #0d0d12 0%, #7c3aed 50%, #a78bfa 100%); }
+.project-image.nlp { background: linear-gradient(135deg, #0d0d12 0%, #6366f1 50%, #818cf8 100%); }
+.project-image.viz { background: linear-gradient(135deg, #0d0d12 0%, #059669 50%, #34d399 100%); }
+.project-image.cv  { background: linear-gradient(135deg, #0d0d12 0%, #db2777 50%, #f472b6 100%); }
 
 /* Glimmer effect on hover */
 .project-image::after {
