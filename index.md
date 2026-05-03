@@ -5,7 +5,7 @@ description: Data Science student and aspiring AI Engineer based in Jakarta.
 ---
 
 <!-- HERO -->
-<section class="hero" id="home">
+<section class="hero" id="top">
   <span class="hero-label">Data Science &bull; Aspiring AI Engineer</span>
   <h1 class="hero-name">Marcell<br/>Hermawan<br/>Kristianto</h1>
   <p class="hero-tagline">I turn data into insights and models into impact. Currently studying Data Science and building the foundations to design intelligent systems that solve real-world problems.</p>
